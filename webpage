@@ -1,5 +1,0 @@
-#!/bin/bash
-sudo yum install httpd -y
-sudo echo "<html><head>Load Balancer Demo On AWS</head><body bgcolor=cyan>web application running on ec2 instance Node-a</body></html>" > /var/www/html/index.html
-sudo chkconfig httpd on
-sudo service httpd start
